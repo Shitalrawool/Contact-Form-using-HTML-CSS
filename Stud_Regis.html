@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1 class="Main_Heading" style="color:rgb(127, 32, 204)">Student Registraion Form</h1>
+            <hr>
+<p>
+    First Name<input type="text" name="FName" required placeholder="Enter First Name">
+</p>
+
+<p>
+    Last Name<input type="text"  name="LName" required placeholder="Enter Last Name">
+</p>
+
+<P>
+    Email ID<input type="email" name="email" id="Email" placeholder="Enter Email ID">
+</P>
+
+<P>
+    Mobile Number<input type="number" name="number" id="number" required placeholder="Enter Mobile Number">
+</P>
+
+<fieldset>
+    <legend>Gender</legend>
+    <p>
+         Male: <input type="radio" name="Gender" id="1" required>
+         Female: <input type="radio" name="Gender" id="2" required>
+    </p>
+</fieldset>
+
+<p>
+    Date Of Birth (DOB)<input type="date" name="date" id="date" required>
+</p>
+
+<p>
+    Address <textarea name="Address" name="Address" cols="50" rows="5" required placeholder="Enter Address"></textarea>
+</p>
+
+<p>
+    City <input type="text" name="city" id="city" required placeholder="Enter City">
+</p>
+
+<p>
+    Pincode<input type="password" name="password" id="password" required placeholder="Enter Pincode">
+</p>
+
+<p>
+    State <input type="text" name="State" id="State" required placeholder="Enter State">
+</p>
+
+<p>
+    Country <input type="text" name="Country" id="Country" required placeholder="Enter Country">
+</p>
+
+<fieldset>
+    <legend>Hobbies</legend>
+    <P>
+    <input type="checkbox" name="Drawing" id="Drawing">Drawing <br>
+    <input type="checkbox" name="Singing" id="Singing">Singing <br>
+    <input type="checkbox" name="Dancing" id="Dancing">Dancing <br>
+    <input type="checkbox" name="Sketching" id="Sketching">Sketching <br>
+    <input type="checkbox" name="others" id="others">others 
+    <input type="text" name="others" id="others" placeholder="Ex-Teaching">
+    
+</p>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend> Qualification </legend>
+    <P>
+    <input type="checkbox" name="ssc" id="ssc"> High School (10<sup>th</sup>) <br>
+    <input type="checkbox" name="hsc" id="hsc"> Higher School (12<sup>th</sup>) <br>
+    <input type="checkbox" name="Bachelors" id="Bachelors"> Graduation (Bachelors) <br>
+    <input type="checkbox" name="Masters" id="Masters"> Post Graduation (Masters) <br>
+    <input type="checkbox" name="Phd" id="Phd"> Phd
+</p>
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend> Courses Appiled For </legend>
+    <P>
+    <input type="radio" name="Courses" id="Drawing" required> BCA (Bachelor of Computer Applications) <br>
+    <input type="radio" name="Courses" id="Singing"> B.Com (Bachelor of Commerce) <br>
+    <input type="radio" name="Courses" id="Dancing"> B.Sc (Bachelors of Science) <br>
+    <input type="radio" name="Courses" id="Sketching"> BA (Bachelor of Arts) <br>
+    <input type="radio" name="Courses" id="others"> MCA (Master of Computer Applications)<br>
+    <input type="radio" name="Courses" id="Singing"> M.Com (Master of Commerce) <br>
+    <input type="radio" name="Courses" id="Dancing"> M.Sc (Masters of Science) <br>
+    <input type="radio" name="Courses" id="Sketching"> MA (Master of Arts)
+</p>
+</fieldset>
+
+<br>
+
+<input type="Submit" value="Submit" required><br><hr>
+<input type="reset" value="Reset">
+
+        </form>
+    </div>
+    
+</body>
+</html>
